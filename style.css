@@ -18,6 +18,18 @@
     padding-bottom: 69px;
     margin-bottom: 60px;
 }
+.link{
+    background-color:#E02C6D;
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    color: white;
+}
+.flex-container:hover .link{
+    background: cyan;
+    border-radius: 30px;
+    transition: ease 2s ;
+    
+}
 h1{
     font-size: 64px;
     color: white;
@@ -31,12 +43,7 @@ h1{
 .button{
     padding-left: 156px;
 }
-.link{
-    background-color:#E02C6D;
-    text-decoration: none;
-    padding: 10px 24px 10px 24px;
-    color: white;
-}
+
 .fa-arrow-right{
     padding: 15px;
     align-items: center;
@@ -171,6 +178,10 @@ footer{
     }
     .single-video2{
         margin-left: 150px;
+    }
+    .width img, .width h1{
+        width: 400px;
+        height: 350px;
     }
     
 }
