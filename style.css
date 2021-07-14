@@ -1,40 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-body{
+/*--------------
+  body style
+  ----------------*/
+  body{
     margin: 0;
     padding: 0;
-    
     font-family: 'Poppins', sans-serif;
 }
-/* header section  start*/
-header{
-    background: #2D25A0;
-}
-.banner{
+/*.................. 
+   top-banner
+.................. */
+.flex-container{
+    
     display: flex;
+    background-color:#2D25A0;
+    padding-bottom: 69px;
+    margin-bottom: 60px;
 }
-.banner-img{
-    margin-left: 107px;
+h1{
+    font-size: 64px;
+    color: white;
 }
-.banner-img img{
-    width: 556px;
+.width h1{
+   width: 485px;
+   height: 230px;
+   padding-left:156px;
+   margin-top: 207px; 
+}
+.button{
+    padding-left: 156px;
+}
+.link{
+    background-color:#E02C6D;
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    color: white;
+}
+.fa-arrow-right{
+    padding: 15px;
+    align-items: center;
+}
+.width img{
+    width:556px;
     height: 438px;
     margin-top: 153px;
+    margin-left: 100px;
 }
-.banner-content{
-    height: 230px;
-    width: 485px;
-    margin-left: 156px;
-    margin-top: 207px;
-}
-.banner-content h1{
-    font-size: 64px;
-    font-weight: bold;
-    line-height: 80px;
-}
-.banner-content button{
-    font-weight: bold;
-    padding: 10px 24px;
-    background: #E02C6D;
-}
-/*header section end*/
 
+/*-----------
+photo-albam
+----------------*/
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:10px;
+    margin-left:150px;
+    margin-right:150px;
+}
+.player img{
+    width:300px;
+    height: 256px;
+    margin: 4.5%;
+}
+.player{
+    width:330px;
+    height: 474px;
+    box-shadow: 2px 2px 20px rgb(201, 196, 196);
+    text-align: center;
+    margin-top: 20px;  
+    text-align: left; 
+}
+.player p{
+    padding-left: 5%;
+    color: #6C6C6C;
+}
+.player h2{
+    padding-left: 5%;
+    margin-top: 5px;
+}
+
+/*------------
+     video
+-----------------*/
+.top-video{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.foot-ball-video video{
+    width: 400px;
+}
+.single-video1{
+    margin-left: 150px;
+}
+.single-video2{
+    margin-right: 150px;
+}
+.watch-more{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.watch-more a{
+    text-decoration: none; 
+    font-size: 20px;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:white;
+    font-weight: 700; 
+}
+/*---------------------
+    footer section start
+---------------------------*/
+footer{
+    text-align: center;
+}
+.footer-section{
+    margin-top: 10px;
+}
+
+.footer-img img{
+    width: 485px;
+    height: 110px;
+}
+.footer-icon i{
+    font-size: 32px;
+    padding: 10px;
+    background: #b0b3bd;
+    border-radius: 50%;
+    color: #6C6C6C;
+}
+.footer-content{
+    padding-top: 10px;
+}
